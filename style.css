@@ -1,0 +1,47 @@
+	.wrap-3{
+  position: relative;
+  width: 450px;
+/*   width: 100%; */
+  background: #602e39;
+  border: 1px solid #000000;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+	.wrap-4{
+  position: relative;
+  width: 1400px;
+/*   width: 100%; */
+  background: #602e39;
+  border: 1px solid #000000;
+  margin-bottom: 10px;
+}
+	.wrap-5{
+  position: relative;
+  width: 420px;
+/*   width: 100%; */
+  background: #602e39;
+  border: 1px solid #000000;
+  margin-bottom: 10px;
+	}
+
+.column {
+  float: left;
+  width: ;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: ;
+  padding: 5px;
+}
